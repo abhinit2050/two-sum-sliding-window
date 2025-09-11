@@ -1,5 +1,9 @@
 var strStr = function(haystack, needle) {
     
+    //one line solution below
+    // return haystack.indexOf(needle)
+
+    //alternate solution using two pointer approach
     let i =0, j=0;
 
     while(i<needle.length && j<haystack.length){
